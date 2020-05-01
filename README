@@ -1,0 +1,11 @@
+The QueryOrthodb Repository contains scripts to run BUSCO on either assembled genome or gene peptide sequences in fasta format.
+The query_orthodb.py script was used to query the OrthoDB api using OrthoDB ids the are producted by BUSCO analyses.
+The input for the query_orthodb.py script is a text file containing OrthoDB ids; one id per line. For example,
+
+101787at71240
+101801at71240
+102474at71240
+102816at71240
+104482at71240
+
+The query_orthodb.py script will query the OrthoDB api and extract the OrthoDB_ID, Name, Tax_ID, Molecular_Function, Biological_Process and Cellular_Component.
